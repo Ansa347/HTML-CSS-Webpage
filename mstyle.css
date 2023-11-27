@@ -1,0 +1,240 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+/* @media only screen and (min-width:1200px) 
+     */
+header{
+    width: 100%;
+ height: 450px;
+ background-image: linear-gradient(rgb(20,20,20,0.5),rgb(20,20,20,0.5)), url(images/foggy-clouds-covering-mountains-4k-cb-2560x1440.jpg);
+ background-size: cover;
+ background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+#box1{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    height: 30px;
+    margin-left: 25%;
+    margin-top: -20px;
+    width: 10%;
+}
+#box2{
+    height: 40px;
+    margin-right: 60px;
+    width: 50%;
+    margin-top: 20px;
+    
+} 
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li :hover{
+    color: blueviolet;
+}
+section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    padding-left: 25%;
+    color: white;
+    
+}
+#bt1{
+    background-color: rgb(119, 0, 255);
+    border-radius: 10px;
+    padding: 9px;
+    color: white;
+    border: none;
+}
+#content{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#box4{
+    font-family: sans-serif;
+}
+#onebox{
+    height: 430px;
+
+}
+#mainbox{
+    /* background-color: brown; */
+    padding-top: 4%;
+    height: 80%;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+#headingone{
+    text-align: center;
+    padding-top: 3%;
+}
+#boxe{
+    width: 20%;
+    height: 75%;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px darkgrey;
+
+    margin-left: 8%;
+}
+#imagee{
+    height: 40%;
+    padding-top: 8%;
+}
+#boxc{
+    width: 20%;
+    height: 75%;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px darkgrey;
+
+}
+#imagec{
+    height: 40%;
+    padding-top: 8%;
+}
+#boxg{
+    width: 20%;
+    height: 75%;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px darkgrey;
+
+}
+#imageg{
+    height: 40%;
+    padding-top: 8%;
+    width: 25%;
+}
+#boxo{
+    /* margin-top: 2%; */
+    width: 20%;
+    height: 75%;
+    background-color: white;
+    box-shadow: 1px 1px 3px 3px darkgrey;
+    margin-right: 8%;
+}
+#imageo{
+    height: 40%;
+    padding-top: 9%;
+}
+#headingm{
+    padding-top: 4%;
+}
+#parae{
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+#parac{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#parag{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#parao{
+    padding-top: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+#offers{
+    height: 400px;
+    width: 100%;
+    /* margin-top: 3%; */
+    background-image:linear-gradient(rgba(70, 53, 90, 0.5),rgba(70,53, 90, 0.5)), url(images/pic_header_wind_power-1920x985.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+
+}
+.divider{
+    background-color: black;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 48%;
+    height: 1%;
+}
+#offerbox1{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 6%;
+    color: white;
+}
+#btnf2{
+    background-color: rgb(119, 0, 255);
+    width: 25%;
+    border-radius: 7px;
+    padding: 5px;
+}
+#btnf1{
+    width: 25%;
+    border-radius: 7px;
+    padding: 5px;
+}
+#offerbox2{
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+#image1{
+ width: 150px;
+ position: absolute;
+ z-index: 3;
+ margin-top: 10%;
+ height: 150px;
+ width: 350px;
+}
+#image2{
+    position: absolute;
+ width: 150px;
+ z-index: 2;
+ margin-top: 15%;
+ height: 150px;
+ margin-left: 10%;
+ width: 350px;
+}
+#image3{
+    position: absolute;
+    z-index: 1;
+ width: 300px;
+ height: 230px;
+ margin-left: 7%;
+ margin-top: 3%;
+}
